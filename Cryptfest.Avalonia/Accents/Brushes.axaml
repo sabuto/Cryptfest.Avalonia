@@ -1,0 +1,26 @@
+﻿<Style xmlns="https://github.com/avaloniaui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style.Resources>
+        <SolidColorBrush x:Key="TextFillColourPrimaryBrush" Color="{DynamicResource TextFillColourPrimary}" />
+        <SolidColorBrush x:Key="TextFillColourSecondaryBrush" Color="{DynamicResource TextFillColourSecondary}" />
+        <SolidColorBrush x:Key="TextFillColourTertiaryBrush" Color="{DynamicResource TextFillColourTertiary}" />
+        <SolidColorBrush x:Key="TextFillColourDisabledBrush" Color="{DynamicResource TextFillColourDisabled}" />
+
+
+        <SolidColorBrush x:Key="ControlFillColourPrimaryBrush" Color="{DynamicResource ControlFillColourPrimary}" />
+        <SolidColorBrush x:Key="ControlFillColourSecondaryBrush" Opacity="0.6"
+                         Color="{DynamicResource ControlFillColourSecondary}" />
+        <SolidColorBrush x:Key="ControlFillColourTertiaryBrush" Color="{DynamicResource ControlFillColourTertiary}" />
+        <SolidColorBrush x:Key="ControlFillColourDisabledBrush" Color="{DynamicResource ControlFillColourDisabled}" />
+        <SolidColorBrush x:Key="ControlFillColourDisabledSecondaryBrush" Opacity="0.3" Color="{DynamicResource ControlFillColourDisabledSecondary}" />
+
+
+        <SolidColorBrush x:Key="ControlStrokeColourPrimaryBrush" Color="{DynamicResource ControlStrokeColourPrimary}" />
+        <SolidColorBrush x:Key="ControlStrokeColourDisabledBrush" Color="{DynamicResource ControlStrokeColourDisabled}" />
+
+        <SolidColorBrush x:Key="ControlFocusStrokeColourBrush" Color="{DynamicResource ControlFocusStrokeColour}" />
+        <SolidColorBrush x:Key="ControlHoverStrokeColourBrush" Opacity="0.5"
+                         Color="{DynamicResource ControlHoverStrokeColour}" />
+        <SolidColorBrush x:Key="ControlHoverFillColourBrush" Color="{DynamicResource ControlHoverFillColour}" />
+    </Style.Resources>
+</Style>

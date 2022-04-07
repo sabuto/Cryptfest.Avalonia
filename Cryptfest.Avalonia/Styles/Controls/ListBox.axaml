@@ -1,0 +1,13 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <ListBox>
+                <ListBoxItem Content="One"></ListBoxItem>
+                <ListBoxItem Content="Two"></ListBoxItem>
+            </ListBox>
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- Add Styles Here -->
+</Styles>

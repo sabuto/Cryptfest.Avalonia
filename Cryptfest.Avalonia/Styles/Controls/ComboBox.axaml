@@ -1,0 +1,24 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="100" Background="Black">
+            <ComboBox Width="300" SelectedIndex="0">
+                <ComboBoxItem Content="One" />
+                <ComboBoxItem Content="Two" />
+                <ComboBoxItem Content="Three" />
+            </ComboBox>
+        </Border>
+    </Design.PreviewWith>
+
+    <Style Selector="ComboBox">
+        <Setter Property="BorderBrush" Value="{DynamicResource ControlStrokeColourPrimaryBrush}" />
+        <Setter Property="Background" Value="{DynamicResource ControlFillColourSecondary}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextFillColourPrimary}" />
+        <Setter Property="Padding" Value="10" />
+        <Setter Property="FontWeight" Value="Light" />
+    </Style>
+    
+    <Style Selector="ComboBox /template/ PathIcon#DropDownGlyph">
+        <Setter Property="Foreground" Value="{DynamicResource ControlStrokeColourPrimaryBrush}" />
+    </Style>
+</Styles>
